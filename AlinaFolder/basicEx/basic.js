@@ -68,8 +68,8 @@ class Animal {
     sound () {
         return  `<div class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title demoName">${this.name}</h5>
-                        <p class="card-text demo">I am a ${this.type} and my color is ${this.color}. All day long I do ${this.sounds}.</p>
+                        <h5 class="card-title">${this.name}</h5>
+                        <p class="card-text">I am a ${this.type} and my color is ${this.color}. All day long I do ${this.sounds}.</p>
                     </div>
                 </div>`
        
@@ -109,8 +109,8 @@ class Car {
     info () {
         return `<div class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title demoName">${this.name}</h5>
-                        <p class="card-text demo">I am a ${this.name} car. My model is ${this.model}.</p>
+                        <h5 class="card-title">${this.name}</h5>
+                        <p class="card-text">I am a ${this.name} car. My model is ${this.model}.</p>
                     </div>
                 </div>`
         
